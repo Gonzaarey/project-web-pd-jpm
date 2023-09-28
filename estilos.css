@@ -36,3 +36,26 @@ body {
     color: white; /* #000000 */
     font-family: 'Poppins', sans-serif;
 }
+.header,main,footer {
+    max-width: 600%;
+    margin: 0 auto;
+}
+.header {
+border: 10px solid red;
+
+}
+
+.main {
+border : 10px solid yellow;
+
+}
+
+.footer {
+border:  10px solid green;
+
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
