@@ -1,16 +1,8 @@
-
-.titulo {
-    color: #ecb0c6;
-}
-
 .parrafo {
 color: orange;
 
 }
 
-.parrafo-italica {
-    font-size: italic;
-}
 
 * { 
     margin: 0;
@@ -35,6 +27,9 @@ body {
     background-color: #212322;
     color: white; /* #000000 */
     font-family: 'Poppins', sans-serif;
+    background-image: url("imagenes/shattered-feelings@3000x2000px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header,main,footer {
     max-width: 600%;
@@ -42,7 +37,12 @@ body {
 }
 .header {
 border: 10px solid red;
-
+display: flex; /*propiedad obligatoria para utilizar flexbox y acomodar nuestro contenido*/
+flex-direction: column; /*Eje principal verticual (column) */ /*horinzontal (row)*/
+align-items: center;/*controlar el eje secundario de los elementos hijos*/
+justify-content: center;/*controlar el eje principal de los elementos hijos */
+padding: 2rem;
+/*margin: 2rem:*/
 }
 
 .main {
@@ -51,11 +51,25 @@ border : 10px solid yellow;
 }
 
 .footer {
-border:  10px solid green;
+border:  10px solid purple;
 
 }
 
 .header__logo {
     width: 100px;
     height: 100px;
+}
+
+.header__titulo {
+    font-size: 4rem; /*1rem -> 16px */ /*1rem -> 10px */
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    margin:  0 0 2rem 0;
+
+}
+
+.header__parrafo {
+
 }
