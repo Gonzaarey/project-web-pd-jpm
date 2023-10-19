@@ -83,17 +83,18 @@ html{
 .seccion1__item {
     background-color: #f5b5cd;
     border-radius: 0.5rem;
+    
 }
 
-.seccion__lista {
+.seccion1__lista {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     list-style-type: none;
 }
 .seccion1__enlace {
-    background-color: red;
+   /* background-color: red;*/
     display: block;
     padding: 1rem;
     text-decoration: none;
@@ -101,22 +102,55 @@ html{
 
 /* Seccion 2 */
 
-.seccion2_mapa {
+.seccion2__mapa {
     width: 80%;
+    height: 300px;
     margin: 0% auto;
     display: block;
 }
+/* Seccion 3 */
 
-.seccion3_lista {
+.seccion3 {
+    padding: 2rem;
+}
+
+.seccion3__lista {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    
     
 }
 
 .seccion3__item {
     width: 300px;
     height: 200px;
-    border: 1px solid red;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.seccion3__enlace {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #f5b5cd;
+}
+.seccion3__icono {
+    font-size: 5rem;
+    color: #f5b5cd;
+   
+}
+/* Seccion 4 */
+
+.seccion4 {
+    padding: 2rem;
+}
+.seccion4__banner {
+    width: 100%;
+
 }
