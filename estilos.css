@@ -45,10 +45,7 @@ border : 10px solid yellow;
 
 }
 
-.footer {
-border:  10px solid green;
 
-}
 
 .header__logo {
     width: 100px;
@@ -153,4 +150,18 @@ html{
 .seccion4__banner {
     width: 100%;
 
+}
+
+/*footer*/
+.footer {
+    border:  10px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer__logo {
+    width: 150px;
+    height: 150px;
 }
