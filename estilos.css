@@ -171,3 +171,8 @@ html{
     padding: 2rem;
 }
 
+.seccion5__boton {
+    background-color: #f5b5cd;
+    border-color: #f5b5cd;
+    width: 100%;
+}
