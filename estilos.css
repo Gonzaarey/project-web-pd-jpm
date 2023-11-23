@@ -176,3 +176,19 @@ html{
     border-color: #f5b5cd;
     width: 100%;
 }
+
+/* Media Querys */
+
+/* Mobile First */
+@media (min-width: 900px) {
+    body {
+        background-color: rebeccapurple;
+    }
+} 
+
+/*Desktop First 
+@media ( max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}*/
